@@ -120,6 +120,6 @@ console.log(userName);
 //In the example above, what is the 'this keyword' bound to when getUsername runs?
 
   //Answer Here
-  // The setTimeout function
+  // 'This' will refer to the default, which is the window object, because it is invoked from within a setTimeout.
 
 //Fix the getMyUsername invocation so that userName will be equal to 'iliketurtles'.
